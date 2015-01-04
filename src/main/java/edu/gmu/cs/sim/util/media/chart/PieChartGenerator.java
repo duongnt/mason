@@ -12,16 +12,17 @@ import java.util.Arrays;
 import java.util.Collection;
 import java.util.HashMap;
 
-import com.lowagie.text.*;
-import com.lowagie.text.pdf.*;
-import org.jfree.chart.*;
-import org.jfree.chart.plot.*;
-import org.jfree.chart.renderer.xy.*;
-import org.jfree.chart.title.*;
-import org.jfree.data.category.*;
-import org.jfree.data.general.*;
-import org.jfree.data.statistics.*;
-import org.jfree.ui.*;
+import org.jfree.chart.ChartFactory;
+import org.jfree.chart.JFreeChart;
+import org.jfree.chart.StandardChartTheme;
+import org.jfree.chart.plot.MultiplePiePlot;
+import org.jfree.chart.plot.PiePlot;
+import org.jfree.chart.title.TextTitle;
+import org.jfree.data.category.CategoryDataset;
+import org.jfree.data.category.DefaultCategoryDataset;
+import org.jfree.data.general.Dataset;
+import org.jfree.data.general.SeriesChangeListener;
+import org.jfree.ui.RectangleEdge;
 
 // From JFreeChart
 // from iText (www.lowagie.com/iText/)

@@ -8,8 +8,6 @@ package edu.gmu.cs.sim.portrayal.inspector;
 
 import java.awt.*;
 
-import org.jfree.data.general.*;
-import org.jfree.data.xy.*;
 import edu.gmu.cs.sim.display.ChartUtilities;
 import edu.gmu.cs.sim.display.GUIState;
 import edu.gmu.cs.sim.engine.Stoppable;
@@ -20,6 +18,8 @@ import edu.gmu.cs.sim.util.Valuable;
 import edu.gmu.cs.sim.util.media.chart.ChartGenerator;
 import edu.gmu.cs.sim.util.media.chart.HistogramGenerator;
 import edu.gmu.cs.sim.util.media.chart.XYChartGenerator;
+import org.jfree.data.general.SeriesChangeEvent;
+import org.jfree.data.general.SeriesChangeListener;
 
 /** A property inspector which generates histograms of data.  The histograms update in real-time as
  requested by the user.  Data properties for which

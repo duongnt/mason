@@ -6,11 +6,19 @@
 
 package edu.gmu.cs.sim.portrayal3d.simple;
 
-import javax.media.j3d.*;
-import javax.vecmath.*;
+import javax.media.j3d.OrderedGroup;
+import javax.media.j3d.OrientedShape3D;
+import javax.media.j3d.PolygonAttributes;
+import javax.media.j3d.Shape3D;
+import javax.media.j3d.Switch;
+import javax.media.j3d.Transform3D;
+import javax.media.j3d.TransformGroup;
+import javax.vecmath.Color3f;
+import javax.vecmath.Point3f;
+import javax.vecmath.Vector3f;
 import java.awt.*;
 
-import com.sun.j3d.utils.geometry.*;
+import com.sun.j3d.utils.geometry.Text2D;
 import edu.gmu.cs.sim.display.GUIState;
 import edu.gmu.cs.sim.display3d.Display3D;
 import edu.gmu.cs.sim.portrayal.Inspector;

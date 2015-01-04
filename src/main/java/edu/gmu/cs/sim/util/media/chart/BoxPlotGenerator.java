@@ -14,23 +14,24 @@ import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
 import java.util.ArrayList;
 
-import com.lowagie.text.*;
-import com.lowagie.text.pdf.*;
-import org.jfree.chart.*;
-import org.jfree.chart.axis.*;
-import org.jfree.chart.event.*;
-import org.jfree.chart.labels.*;
-import org.jfree.chart.plot.*;
-import org.jfree.chart.renderer.category.*;
-import org.jfree.chart.title.*;
-import org.jfree.data.*;
-import org.jfree.data.category.*;
-import org.jfree.data.general.*;
-import org.jfree.data.statistics.*;
-import org.jfree.data.xy.*;
 import edu.gmu.cs.sim.util.gui.LabelledList;
 import edu.gmu.cs.sim.util.gui.NumberTextField;
 import edu.gmu.cs.sim.util.gui.PropertyField;
+import org.jfree.chart.ChartFactory;
+import org.jfree.chart.JFreeChart;
+import org.jfree.chart.axis.CategoryAxis;
+import org.jfree.chart.axis.LogarithmicAxis;
+import org.jfree.chart.axis.NumberAxis;
+import org.jfree.chart.axis.ValueAxis;
+import org.jfree.chart.event.AxisChangeEvent;
+import org.jfree.chart.labels.BoxAndWhiskerToolTipGenerator;
+import org.jfree.chart.plot.CategoryPlot;
+import org.jfree.chart.plot.PlotOrientation;
+import org.jfree.chart.renderer.category.BoxAndWhiskerRenderer;
+import org.jfree.data.Range;
+import org.jfree.data.general.Dataset;
+import org.jfree.data.general.SeriesChangeListener;
+import org.jfree.data.statistics.DefaultBoxAndWhiskerCategoryDataset;
 
 // From JFreeChart
 // from iText (www.lowagie.com/iText/)

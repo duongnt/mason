@@ -8,15 +8,12 @@ package edu.gmu.cs.sim.util.media.chart;
 
 import java.awt.*;
 
-import org.jfree.chart.*;
-import org.jfree.chart.event.*;
-import org.jfree.chart.plot.*;
-import org.jfree.chart.renderer.category.*;
-import org.jfree.chart.renderer.xy.*;
-import org.jfree.data.general.*;
-import org.jfree.data.xy.*;
 import edu.gmu.cs.sim.util.gui.ColorWell;
 import edu.gmu.cs.sim.util.gui.NumberTextField;
+import org.jfree.chart.plot.CategoryPlot;
+import org.jfree.chart.renderer.category.BoxAndWhiskerRenderer;
+import org.jfree.chart.renderer.category.CategoryItemRenderer;
+import org.jfree.data.general.SeriesChangeListener;
 
 // From JFreeChart
 

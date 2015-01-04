@@ -6,9 +6,10 @@
 
 package edu.gmu.cs.sim.portrayal3d.grid;
 
-import javax.vecmath.*;
+import javax.vecmath.Vector3d;
 
-import com.sun.j3d.utils.picking.*;
+import com.sun.j3d.utils.picking.PickIntersection;
+import com.sun.j3d.utils.picking.PickResult;
 import edu.gmu.cs.sim.field.grid.SparseGrid2D;
 import edu.gmu.cs.sim.field.grid.SparseGrid3D;
 import edu.gmu.cs.sim.portrayal.LocationWrapper;

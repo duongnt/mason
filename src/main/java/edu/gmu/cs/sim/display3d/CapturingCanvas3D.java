@@ -6,8 +6,12 @@
 
 package edu.gmu.cs.sim.display3d;
 
-import javax.media.j3d.*;
-import javax.vecmath.*;
+import javax.media.j3d.Canvas3D;
+import javax.media.j3d.GraphicsContext3D;
+import javax.media.j3d.ImageComponent;
+import javax.media.j3d.ImageComponent2D;
+import javax.media.j3d.Raster;
+import javax.vecmath.Point3f;
 import java.awt.*;
 import java.awt.geom.Rectangle2D;
 import java.awt.image.BufferedImage;

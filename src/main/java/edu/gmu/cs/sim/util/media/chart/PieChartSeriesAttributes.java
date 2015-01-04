@@ -9,12 +9,7 @@ package edu.gmu.cs.sim.util.media.chart;
 import java.util.ArrayList;
 import java.util.Collection;
 
-import org.jfree.chart.*;
-import org.jfree.chart.event.*;
-import org.jfree.chart.plot.*;
-import org.jfree.chart.renderer.xy.*;
-import org.jfree.data.general.*;
-import org.jfree.data.xy.*;
+import org.jfree.data.general.SeriesChangeListener;
 
 // From JFreeChart
 

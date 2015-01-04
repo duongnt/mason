@@ -9,14 +9,18 @@
 
 package edu.gmu.cs.sim.display3d;
 
-import javax.media.j3d.*;
+import javax.media.j3d.Bounds;
+import javax.media.j3d.BranchGroup;
+import javax.media.j3d.Canvas3D;
+import javax.media.j3d.Shape3D;
 import javax.swing.*;
-import javax.vecmath.*;
+import javax.vecmath.Point3d;
 import java.util.Enumeration;
 
-import com.sun.j3d.utils.behaviors.mouse.*;
-import com.sun.j3d.utils.picking.*;
-import com.sun.j3d.utils.picking.behaviors.*;
+import com.sun.j3d.utils.behaviors.mouse.MouseBehavior;
+import com.sun.j3d.utils.picking.PickCanvas;
+import com.sun.j3d.utils.picking.PickIntersection;
+import com.sun.j3d.utils.picking.PickResult;
 import edu.gmu.cs.sim.display.GUIState;
 import edu.gmu.cs.sim.portrayal.LocationWrapper;
 import edu.gmu.cs.sim.portrayal3d.FieldPortrayal3D;

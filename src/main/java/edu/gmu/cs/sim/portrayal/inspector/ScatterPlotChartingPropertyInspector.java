@@ -8,8 +8,6 @@ package edu.gmu.cs.sim.portrayal.inspector;
 
 import java.awt.*;
 
-import org.jfree.data.general.*;
-import org.jfree.data.xy.*;
 import edu.gmu.cs.sim.display.ChartUtilities;
 import edu.gmu.cs.sim.display.GUIState;
 import edu.gmu.cs.sim.engine.Stoppable;
@@ -19,6 +17,8 @@ import edu.gmu.cs.sim.util.Properties;
 import edu.gmu.cs.sim.util.media.chart.ChartGenerator;
 import edu.gmu.cs.sim.util.media.chart.ScatterPlotGenerator;
 import edu.gmu.cs.sim.util.media.chart.XYChartGenerator;
+import org.jfree.data.general.SeriesChangeEvent;
+import org.jfree.data.general.SeriesChangeListener;
 
 public class ScatterPlotChartingPropertyInspector extends ChartingPropertyInspector {
     double[][] previousValues = new double[2][0]; // sacrificial

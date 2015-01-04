@@ -6,8 +6,11 @@
 
 package edu.gmu.cs.sim.app.woims3d;
 
-import javax.media.j3d.*;
-import javax.vecmath.*;
+import javax.media.j3d.Appearance;
+import javax.media.j3d.ColoringAttributes;
+import javax.media.j3d.Material;
+import javax.media.j3d.TransformGroup;
+import javax.vecmath.Color3f;
 
 import com.sun.j3d.utils.geometry.Sphere;
 import edu.gmu.cs.sim.portrayal3d.SimplePortrayal3D;

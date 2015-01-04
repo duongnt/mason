@@ -10,18 +10,27 @@
 
 package edu.gmu.cs.sim.display3d;
 
-import javax.media.j3d.*;
+import javax.media.j3d.Bounds;
+import javax.media.j3d.BranchGroup;
+import javax.media.j3d.Canvas3D;
+import javax.media.j3d.Shape3D;
+import javax.media.j3d.WakeupCondition;
+import javax.media.j3d.WakeupCriterion;
+import javax.media.j3d.WakeupOnAWTEvent;
+import javax.media.j3d.WakeupOr;
 import javax.swing.*;
 import javax.swing.border.EmptyBorder;
-import javax.vecmath.*;
+import javax.vecmath.Point3d;
 import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.awt.event.MouseEvent;
 import java.util.Enumeration;
 
-import com.sun.j3d.utils.picking.*;
-import com.sun.j3d.utils.picking.behaviors.*;
+import com.sun.j3d.utils.picking.PickCanvas;
+import com.sun.j3d.utils.picking.PickIntersection;
+import com.sun.j3d.utils.picking.PickResult;
+import com.sun.j3d.utils.picking.behaviors.PickMouseBehavior;
 import edu.gmu.cs.sim.portrayal.LocationWrapper;
 import edu.gmu.cs.sim.portrayal3d.FieldPortrayal3D;
 import edu.gmu.cs.sim.util.gui.WordWrap;

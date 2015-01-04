@@ -6,8 +6,7 @@
 
 package edu.gmu.cs.sim.app.celegans;
 
-import javax.media.j3d.*;
-import javax.vecmath.*;
+import javax.media.j3d.TransformGroup;
 import java.awt.*;
 
 import edu.gmu.cs.sim.portrayal3d.simple.SpherePortrayal3D;

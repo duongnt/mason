@@ -6,7 +6,9 @@
 
 package edu.gmu.cs.sim.app.pso3d;
 
-import javax.media.j3d.*;
+import javax.media.j3d.Appearance;
+import javax.media.j3d.Shape3D;
+import javax.media.j3d.TransformGroup;
 import javax.swing.*;
 import java.awt.*;
 

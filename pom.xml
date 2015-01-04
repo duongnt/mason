@@ -68,6 +68,19 @@
             <artifactId>itext</artifactId>
             <version>2.1.7</version>
         </dependency>
+
+        <dependency>
+            <groupId>org.geotools</groupId>
+            <artifactId>gt-main</artifactId>
+            <version>11.2</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.geotools</groupId>
+            <artifactId>gt-ogr-jni</artifactId>
+            <version>11.2</version>
+        </dependency>
+
     </dependencies>
 
 </project>

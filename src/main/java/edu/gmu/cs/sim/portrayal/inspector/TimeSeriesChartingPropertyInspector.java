@@ -8,10 +8,6 @@ package edu.gmu.cs.sim.portrayal.inspector;
 
 import java.awt.*;
 
-import org.jfree.chart.*;
-import org.jfree.chart.plot.*;
-import org.jfree.data.general.*;
-import org.jfree.data.xy.*;
 import edu.gmu.cs.sim.display.GUIState;
 import edu.gmu.cs.sim.engine.Stoppable;
 import edu.gmu.cs.sim.util.Properties;
@@ -20,6 +16,10 @@ import edu.gmu.cs.sim.util.media.chart.ChartGenerator;
 import edu.gmu.cs.sim.util.media.chart.TimeSeriesAttributes;
 import edu.gmu.cs.sim.util.media.chart.TimeSeriesChartGenerator;
 import edu.gmu.cs.sim.util.media.chart.XYChartGenerator;
+import org.jfree.data.general.SeriesChangeEvent;
+import org.jfree.data.general.SeriesChangeListener;
+import org.jfree.data.xy.XYDataItem;
+import org.jfree.data.xy.XYSeries;
 
 /** A property inspector which generates time series of data.  Time series are extended in real-time
  as requested by the user.  Data properties for which

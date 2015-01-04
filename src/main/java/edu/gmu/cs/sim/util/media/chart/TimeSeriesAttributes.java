@@ -13,16 +13,15 @@ import java.awt.event.ActionListener;
 import java.util.Arrays;
 import java.util.Iterator;
 
-import org.jfree.chart.*;
-import org.jfree.chart.event.*;
-import org.jfree.chart.plot.*;
-import org.jfree.chart.renderer.xy.*;
-import org.jfree.data.general.*;
-import org.jfree.data.xy.*;
 import edu.gmu.cs.sim.util.Bag;
 import edu.gmu.cs.sim.util.IntBag;
 import edu.gmu.cs.sim.util.gui.ColorWell;
 import edu.gmu.cs.sim.util.gui.NumberTextField;
+import org.jfree.chart.plot.XYPlot;
+import org.jfree.chart.renderer.xy.XYItemRenderer;
+import org.jfree.data.general.SeriesChangeListener;
+import org.jfree.data.xy.XYDataItem;
+import org.jfree.data.xy.XYSeries;
 
 // From JFreeChart
 

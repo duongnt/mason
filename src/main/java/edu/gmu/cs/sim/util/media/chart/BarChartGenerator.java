@@ -14,22 +14,20 @@ import java.awt.event.ItemEvent;
 import java.awt.event.ItemListener;
 import java.util.Arrays;
 
-import com.lowagie.text.*;
-import com.lowagie.text.pdf.*;
-import org.jfree.chart.*;
-import org.jfree.chart.axis.*;
-import org.jfree.chart.event.*;
-import org.jfree.chart.labels.*;
-import org.jfree.chart.plot.*;
-import org.jfree.chart.renderer.category.*;
-import org.jfree.chart.renderer.xy.*;
-import org.jfree.chart.title.*;
-import org.jfree.data.category.*;
-import org.jfree.data.general.*;
-import org.jfree.data.statistics.*;
-import org.jfree.ui.*;
 import edu.gmu.cs.sim.util.gui.LabelledList;
 import edu.gmu.cs.sim.util.gui.PropertyField;
+import org.jfree.chart.ChartFactory;
+import org.jfree.chart.event.AxisChangeEvent;
+import org.jfree.chart.labels.StandardCategoryItemLabelGenerator;
+import org.jfree.chart.plot.CategoryPlot;
+import org.jfree.chart.plot.PlotOrientation;
+import org.jfree.chart.renderer.category.BarRenderer;
+import org.jfree.chart.renderer.category.StackedBarRenderer;
+import org.jfree.chart.renderer.category.StandardBarPainter;
+import org.jfree.data.category.CategoryDataset;
+import org.jfree.data.category.DefaultCategoryDataset;
+import org.jfree.data.general.Dataset;
+import org.jfree.data.general.SeriesChangeListener;
 
 // From JFreeChart
 // from iText (www.lowagie.com/iText/)

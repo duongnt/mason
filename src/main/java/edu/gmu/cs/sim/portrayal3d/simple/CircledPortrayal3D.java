@@ -6,10 +6,14 @@
 
 package edu.gmu.cs.sim.portrayal3d.simple;
 
-import javax.media.j3d.*;
+import javax.media.j3d.Appearance;
+import javax.media.j3d.Node;
+import javax.media.j3d.PolygonAttributes;
+import javax.media.j3d.Switch;
+import javax.media.j3d.TransformGroup;
 import java.awt.*;
 
-import com.sun.j3d.utils.geometry.*;
+import com.sun.j3d.utils.geometry.Sphere;
 import edu.gmu.cs.sim.display.GUIState;
 import edu.gmu.cs.sim.display3d.Display3D;
 import edu.gmu.cs.sim.portrayal.Inspector;

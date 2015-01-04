@@ -4,7 +4,6 @@ import javax.swing.*;
 import java.util.ArrayList;
 import java.util.Collection;
 
-import org.jfree.data.xy.*;
 import edu.gmu.cs.sim.engine.SimState;
 import edu.gmu.cs.sim.engine.Steppable;
 import edu.gmu.cs.sim.engine.Stoppable;
@@ -23,6 +22,7 @@ import edu.gmu.cs.sim.util.media.chart.ScatterPlotGenerator;
 import edu.gmu.cs.sim.util.media.chart.ScatterPlotSeriesAttributes;
 import edu.gmu.cs.sim.util.media.chart.TimeSeriesAttributes;
 import edu.gmu.cs.sim.util.media.chart.TimeSeriesChartGenerator;
+import org.jfree.data.xy.XYSeries;
 
 /**
  ChartUtilities.java

@@ -11,9 +11,12 @@ import java.awt.geom.Rectangle2D;
 import java.io.File;
 import java.io.FileOutputStream;
 
-import com.lowagie.text.*;
-import com.lowagie.text.pdf.*;
-import org.jfree.chart.*;
+import com.lowagie.text.Document;
+import com.lowagie.text.pdf.DefaultFontMapper;
+import com.lowagie.text.pdf.PdfContentByte;
+import com.lowagie.text.pdf.PdfTemplate;
+import com.lowagie.text.pdf.PdfWriter;
+import org.jfree.chart.JFreeChart;
 
 public class PDFEncoder {
     public static void generatePDF(Component component, File file) {

@@ -10,15 +10,15 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-import com.lowagie.text.*;
-import com.lowagie.text.pdf.*;
-import org.jfree.chart.*;
-import org.jfree.chart.plot.*;
-import org.jfree.chart.renderer.xy.*;
-import org.jfree.data.general.*;
-import org.jfree.data.statistics.*;
 import edu.gmu.cs.sim.util.gui.DisclosurePanel;
 import edu.gmu.cs.sim.util.gui.LabelledList;
+import org.jfree.chart.ChartFactory;
+import org.jfree.chart.plot.PlotOrientation;
+import org.jfree.chart.renderer.xy.StandardXYBarPainter;
+import org.jfree.chart.renderer.xy.XYBarRenderer;
+import org.jfree.data.general.SeriesChangeListener;
+import org.jfree.data.statistics.HistogramDataset;
+import org.jfree.data.statistics.HistogramType;
 
 // From JFreeChart
 // from iText (www.lowagie.com/iText/)

@@ -6,7 +6,13 @@
 
 package edu.gmu.cs.sim.portrayal3d.simple;
 
-import javax.media.j3d.*;
+import javax.media.j3d.Appearance;
+import javax.media.j3d.GeometryArray;
+import javax.media.j3d.PolygonAttributes;
+import javax.media.j3d.QuadArray;
+import javax.media.j3d.Shape3D;
+import javax.media.j3d.Transform3D;
+import javax.media.j3d.TransformGroup;
 import java.awt.*;
 
 import edu.gmu.cs.sim.display.GUIState;

@@ -6,8 +6,11 @@
 
 package edu.gmu.cs.sim.portrayal3d;
 
-import javax.media.j3d.*;
-import javax.vecmath.*;
+import javax.media.j3d.BranchGroup;
+import javax.media.j3d.Node;
+import javax.media.j3d.Transform3D;
+import javax.media.j3d.TransformGroup;
+import javax.vecmath.Vector3d;
 import java.util.HashMap;
 import java.util.Iterator;
 

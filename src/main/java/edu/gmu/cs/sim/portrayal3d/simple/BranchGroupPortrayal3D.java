@@ -6,15 +6,22 @@
 
 package edu.gmu.cs.sim.portrayal3d.simple;
 
-import javax.media.j3d.*;
+import javax.media.j3d.Appearance;
+import javax.media.j3d.BranchGroup;
+import javax.media.j3d.CompressedGeometry;
+import javax.media.j3d.Geometry;
+import javax.media.j3d.GeometryArray;
+import javax.media.j3d.Group;
+import javax.media.j3d.Node;
+import javax.media.j3d.Shape3D;
+import javax.media.j3d.Transform3D;
+import javax.media.j3d.TransformGroup;
 import java.io.FileNotFoundException;
 import java.net.URL;
 
-import com.sun.j3d.loaders.*;
-import com.sun.j3d.loaders.lw3d.*;
-import com.sun.j3d.loaders.objectfile.*;
-import com.sun.j3d.utils.geometry.*;
-import com.sun.j3d.utils.picking.*;
+import com.sun.j3d.loaders.lw3d.Lw3dLoader;
+import com.sun.j3d.loaders.objectfile.ObjectFile;
+import com.sun.j3d.utils.picking.PickTool;
 import edu.gmu.cs.sim.portrayal.LocationWrapper;
 
 /**

@@ -6,8 +6,9 @@
 
 package edu.gmu.cs.sim.app.woims3d;
 
-import javax.media.j3d.*;
-import javax.vecmath.*;
+import javax.media.j3d.Transform3D;
+import javax.media.j3d.TransformGroup;
+import javax.vecmath.Vector3d;
 
 import edu.gmu.cs.sim.engine.SimState;
 import edu.gmu.cs.sim.engine.Steppable;

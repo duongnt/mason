@@ -6,8 +6,7 @@
 
 package edu.gmu.cs.sim.app.balls3d;
 
-import javax.media.j3d.*;
-import javax.vecmath.*;
+import javax.media.j3d.TransformGroup;
 import java.awt.*;
 
 import edu.gmu.cs.sim.portrayal3d.simple.SpherePortrayal3D;

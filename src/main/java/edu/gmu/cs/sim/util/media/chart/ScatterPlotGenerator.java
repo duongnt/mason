@@ -8,15 +8,10 @@ package edu.gmu.cs.sim.util.media.chart;
 
 import javax.swing.*;
 
-import com.lowagie.text.*;
-import com.lowagie.text.pdf.*;
-import org.jfree.chart.*;
-import org.jfree.chart.plot.*;
-import org.jfree.chart.renderer.xy.*;
-import org.jfree.data.general.*;
-import org.jfree.data.statistics.*;
-import org.jfree.data.xy.*;
-import org.jfree.util.*;
+import org.jfree.chart.ChartFactory;
+import org.jfree.chart.plot.PlotOrientation;
+import org.jfree.chart.renderer.xy.XYLineAndShapeRenderer;
+import org.jfree.data.xy.DefaultXYDataset;
 
 // From JFreeChart
 // from iText (www.lowagie.com/iText/)

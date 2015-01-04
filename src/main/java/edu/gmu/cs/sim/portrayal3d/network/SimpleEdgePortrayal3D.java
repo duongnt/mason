@@ -6,8 +6,16 @@
 
 package edu.gmu.cs.sim.portrayal3d.network;
 
-import javax.media.j3d.*;
-import javax.vecmath.*;
+import javax.media.j3d.BranchGroup;
+import javax.media.j3d.GeometryArray;
+import javax.media.j3d.LineArray;
+import javax.media.j3d.OrientedShape3D;
+import javax.media.j3d.Shape3D;
+import javax.media.j3d.Transform3D;
+import javax.media.j3d.TransformGroup;
+import javax.vecmath.Color3f;
+import javax.vecmath.Point3f;
+import javax.vecmath.Vector3d;
 import java.awt.*;
 
 import edu.gmu.cs.sim.field.network.Edge;

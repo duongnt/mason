@@ -3,7 +3,8 @@
 
 package edu.gmu.cs.sim.app.crowd3d;
 
-import javax.media.j3d.*;
+import javax.media.j3d.CompressedGeometry;
+import javax.media.j3d.CompressedGeometryHeader;
 
 /** New versions of Java3D have deprecated CompressedGeometry, but we're keeping it here. */
 

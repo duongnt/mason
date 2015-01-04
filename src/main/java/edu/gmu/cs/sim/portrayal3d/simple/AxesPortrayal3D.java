@@ -6,8 +6,9 @@
 
 package edu.gmu.cs.sim.portrayal3d.simple;
 
-import javax.media.j3d.*;
-import javax.vecmath.*;
+import javax.media.j3d.BranchGroup;
+import javax.media.j3d.Group;
+import javax.media.j3d.TransformGroup;
 
 import edu.gmu.cs.sim.portrayal3d.SimplePortrayal3D;
 import edu.gmu.cs.sim.util.Double3D;

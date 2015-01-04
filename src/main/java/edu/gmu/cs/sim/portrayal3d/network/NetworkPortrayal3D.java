@@ -6,11 +6,14 @@
 
 package edu.gmu.cs.sim.portrayal3d.network;
 
-import javax.media.j3d.*;
+import javax.media.j3d.BranchGroup;
+import javax.media.j3d.Group;
+import javax.media.j3d.TransformGroup;
 import java.util.HashMap;
 import java.util.Iterator;
 
-import com.sun.j3d.utils.picking.*;
+import com.sun.j3d.utils.picking.PickIntersection;
+import com.sun.j3d.utils.picking.PickResult;
 import edu.gmu.cs.sim.field.network.Edge;
 import edu.gmu.cs.sim.field.network.Network;
 import edu.gmu.cs.sim.portrayal.LocationWrapper;

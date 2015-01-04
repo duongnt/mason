@@ -6,8 +6,10 @@
 
 package edu.gmu.cs.sim.portrayal3d.simple;
 
-import javax.media.j3d.*;
-import javax.vecmath.*;
+import javax.media.j3d.PolygonAttributes;
+import javax.media.j3d.Transform3D;
+import javax.media.j3d.TransformGroup;
+import javax.vecmath.Vector3d;
 
 import edu.gmu.cs.sim.display.GUIState;
 import edu.gmu.cs.sim.display3d.Display3D;

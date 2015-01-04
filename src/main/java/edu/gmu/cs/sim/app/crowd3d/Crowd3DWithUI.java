@@ -6,9 +6,11 @@
 
 package edu.gmu.cs.sim.app.crowd3d;
 
-import javax.media.j3d.*;
+import javax.media.j3d.Appearance;
+import javax.media.j3d.ColoringAttributes;
+import javax.media.j3d.Material;
 import javax.swing.*;
-import javax.vecmath.*;
+import javax.vecmath.Color3f;
 import java.awt.*;
 
 import edu.gmu.cs.sim.display.Controller;

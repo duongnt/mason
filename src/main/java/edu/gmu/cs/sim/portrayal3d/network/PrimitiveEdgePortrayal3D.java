@@ -5,11 +5,18 @@
 */
 package edu.gmu.cs.sim.portrayal3d.network;
 
-import javax.media.j3d.*;
-import javax.vecmath.*;
+import javax.media.j3d.Appearance;
+import javax.media.j3d.BranchGroup;
+import javax.media.j3d.Node;
+import javax.media.j3d.OrientedShape3D;
+import javax.media.j3d.Shape3D;
+import javax.media.j3d.Transform3D;
+import javax.media.j3d.TransformGroup;
+import javax.vecmath.Color3f;
+import javax.vecmath.Point3f;
 import java.awt.*;
 
-import com.sun.j3d.utils.geometry.*;
+import com.sun.j3d.utils.geometry.Primitive;
 import edu.gmu.cs.sim.field.network.Edge;
 import edu.gmu.cs.sim.portrayal.LocationWrapper;
 import edu.gmu.cs.sim.util.Double3D;

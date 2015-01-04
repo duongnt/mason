@@ -6,11 +6,20 @@
 
 package edu.gmu.cs.sim.portrayal3d.simple;
 
-import javax.media.j3d.*;
-import javax.vecmath.*;
+import javax.media.j3d.Appearance;
+import javax.media.j3d.Font3D;
+import javax.media.j3d.OrientedShape3D;
+import javax.media.j3d.Text3D;
+import javax.media.j3d.Transform3D;
+import javax.media.j3d.TransformGroup;
+import javax.vecmath.AxisAngle4d;
+import javax.vecmath.Point3f;
+import javax.vecmath.Vector3d;
+import javax.vecmath.Vector3f;
 import java.awt.*;
 
-import com.sun.j3d.utils.geometry.*;
+import com.sun.j3d.utils.geometry.Cone;
+import com.sun.j3d.utils.geometry.Cylinder;
 import edu.gmu.cs.sim.portrayal3d.SimplePortrayal3D;
 import edu.gmu.cs.sim.util.Double3D;
 

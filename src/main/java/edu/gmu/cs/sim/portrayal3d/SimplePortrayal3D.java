@@ -6,12 +6,23 @@
 
 package edu.gmu.cs.sim.portrayal3d;
 
-import javax.media.j3d.*;
-import javax.vecmath.*;
+import javax.media.j3d.Appearance;
+import javax.media.j3d.ColoringAttributes;
+import javax.media.j3d.Geometry;
+import javax.media.j3d.GeometryArray;
+import javax.media.j3d.Group;
+import javax.media.j3d.Material;
+import javax.media.j3d.Node;
+import javax.media.j3d.PolygonAttributes;
+import javax.media.j3d.Shape3D;
+import javax.media.j3d.TextureAttributes;
+import javax.media.j3d.TransformGroup;
+import javax.media.j3d.TransparencyAttributes;
+import javax.vecmath.Color3f;
 import java.awt.*;
 import java.util.HashMap;
 
-import com.sun.j3d.utils.image.*;
+import com.sun.j3d.utils.image.TextureLoader;
 import edu.gmu.cs.sim.display.GUIState;
 import edu.gmu.cs.sim.display3d.Display3D;
 import edu.gmu.cs.sim.portrayal.Inspector;

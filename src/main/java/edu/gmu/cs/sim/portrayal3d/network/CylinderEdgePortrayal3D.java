@@ -6,10 +6,11 @@
 
 package edu.gmu.cs.sim.portrayal3d.network;
 
-import javax.media.j3d.*;
+import javax.media.j3d.Appearance;
+import javax.media.j3d.Node;
 import java.awt.*;
 
-import com.sun.j3d.utils.geometry.*;
+import com.sun.j3d.utils.geometry.Cylinder;
 import edu.gmu.cs.sim.portrayal3d.simple.PrimitivePortrayal3D;
 
 /**

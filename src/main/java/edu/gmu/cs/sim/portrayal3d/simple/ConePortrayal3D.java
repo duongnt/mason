@@ -6,10 +6,11 @@
 
 package edu.gmu.cs.sim.portrayal3d.simple;
 
-import javax.media.j3d.*;
+import javax.media.j3d.Appearance;
 import java.awt.*;
 
-import com.sun.j3d.utils.geometry.*;
+import com.sun.j3d.utils.geometry.Cone;
+import com.sun.j3d.utils.geometry.Primitive;
 
 /**
  * Portrays objects as a cone of the specified color or appearance (flat opaque white by default)

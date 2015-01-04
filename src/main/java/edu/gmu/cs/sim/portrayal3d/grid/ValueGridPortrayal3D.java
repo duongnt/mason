@@ -6,11 +6,17 @@
 
 package edu.gmu.cs.sim.portrayal3d.grid;
 
-import javax.media.j3d.*;
-import javax.vecmath.*;
+import javax.media.j3d.Group;
+import javax.media.j3d.PolygonAttributes;
+import javax.media.j3d.Shape3D;
+import javax.media.j3d.Switch;
+import javax.media.j3d.Transform3D;
+import javax.media.j3d.TransformGroup;
+import javax.vecmath.Vector3f;
 import java.awt.*;
 
-import com.sun.j3d.utils.picking.*;
+import com.sun.j3d.utils.picking.PickIntersection;
+import com.sun.j3d.utils.picking.PickResult;
 import edu.gmu.cs.sim.field.grid.AbstractGrid2D;
 import edu.gmu.cs.sim.field.grid.AbstractGrid3D;
 import edu.gmu.cs.sim.field.grid.DoubleGrid2D;

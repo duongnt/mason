@@ -6,9 +6,14 @@
 
 package edu.gmu.cs.sim.portrayal3d.simple;
 
-import javax.media.j3d.*;
+import javax.media.j3d.Appearance;
+import javax.media.j3d.Group;
+import javax.media.j3d.Node;
+import javax.media.j3d.Shape3D;
+import javax.media.j3d.Transform3D;
+import javax.media.j3d.TransformGroup;
 
-import com.sun.j3d.utils.geometry.*;
+import com.sun.j3d.utils.geometry.Primitive;
 import edu.gmu.cs.sim.portrayal.LocationWrapper;
 import edu.gmu.cs.sim.portrayal3d.SimplePortrayal3D;
 

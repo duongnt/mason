@@ -6,7 +6,7 @@
 
 package edu.gmu.cs.sim.portrayal3d.grid.quad;
 
-import com.sun.j3d.utils.picking.*;
+import com.sun.j3d.utils.picking.PickIntersection;
 import edu.gmu.cs.sim.field.grid.Grid2D;
 import edu.gmu.cs.sim.util.Int2D;
 import edu.gmu.cs.sim.util.gui.ColorMap;

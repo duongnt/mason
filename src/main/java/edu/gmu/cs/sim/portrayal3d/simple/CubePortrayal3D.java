@@ -6,8 +6,13 @@
 
 package edu.gmu.cs.sim.portrayal3d.simple;
 
-import javax.media.j3d.*;
-import javax.vecmath.*;
+import javax.media.j3d.Appearance;
+import javax.media.j3d.Group;
+import javax.media.j3d.PolygonAttributes;
+import javax.media.j3d.QuadArray;
+import javax.media.j3d.Shape3D;
+import javax.media.j3d.TransformGroup;
+import javax.vecmath.TexCoord2f;
 import java.awt.*;
 
 import edu.gmu.cs.sim.portrayal.LocationWrapper;
