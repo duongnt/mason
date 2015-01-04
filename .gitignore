@@ -4,3 +4,5 @@
 jar/
 *.class
 target/
+
+.DS_Store
