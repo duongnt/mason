@@ -1,0 +1,60 @@
+/*
+  Copyright 2006 by Daniel Kuebrich
+  Licensed under the Academic Free License version 3.0
+  See the file "LICENSE" for more information
+*/
+
+package edu.gmu.cs.sim.app.lsystem;
+
+import edu.gmu.cs.sim.engine.SimState;
+import edu.gmu.cs.sim.field.continuous.Continuous2D;
+
+public class LSystem extends SimState {
+    private static final long serialVersionUID = 1;
+
+    /** @todo handle realocation of grids when these two are changed */
+    public double xMin = 0;
+    public double xMax = 100;
+    public double yMin = 0;
+    public double yMax = 100;
+
+    public LSystemData l = new LSystemData();
+
+    public Continuous2D drawEnvironment;
+
+
+    public LSystem(long seed) {
+        this(seed, 100, 100);
+    }
+
+    public LSystem(long seed, int width, int height) {
+        super(seed);
+        xMax = width;
+        yMax = height;
+
+        createGrids();
+    }
+
+    void createGrids() {
+        drawEnvironment = new Continuous2D(5, (xMax - xMin), (yMax - yMin));
+    }
+
+    /** Resets and starts a simulation */
+    public void start() {
+        super.start();  // clear out the schedule
+        createGrids();
+
+        LSystemDrawer ld = new LSystemDrawer(l);
+        ld.stopper = schedule.scheduleRepeating(ld);
+    }
+
+    public static void main(String[] args) {
+        doLoop(LSystem.class, args);
+        System.exit(0);
+    }
+}
+    
+    
+    
+    
+    
